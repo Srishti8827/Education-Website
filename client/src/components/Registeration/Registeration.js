@@ -44,7 +44,7 @@ function Registeration() {
                 <div className="form_wrapper">
                     <div className="form_container">
                         <div className="title_container">
-                            <h2> Registration Form</h2>
+                            <h2>  Registration Form</h2>
                         </div>
                         <div className="row clearfix">
                             <div >
