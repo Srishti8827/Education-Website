@@ -1,0 +1,48 @@
+.sliderarea{
+    margin-bottom: 2rem;
+}
+.facutlyheading{
+    font-size: 2rem;
+    margin-top:3rem;
+    color:rgb(62, 66, 128) ;
+}
+.card{   
+    height: 18rem;
+    /* width: ; */
+    margin: 1.3rem;
+    /* display: flex; */
+    background-color: rgba(186, 191, 255, 0.2);
+    align-items: center;
+    justify-content: center;
+    
+}
+.card:hover{
+    background-color:  rgb(210, 213, 252);
+    .facutlyheading{
+        color: rgb(4, 4, 4);
+    }
+    .content{
+        /* color: aliceblue; */
+    }
+    
+
+}
+.heading{
+    /* padding-left: 2em; */
+    color:rgb(132, 140, 255) ;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+}
+.content{
+    padding-top: 1em;
+    /* padding-right:4rem ; */
+   color: rgb(86, 86, 86);
+    /* padding-right: 2em; */
+    /* padding-top: 1em; */
+    padding: 1.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0%;
+    /* background: #000; */
+    margin: 0px;
+}

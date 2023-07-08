@@ -1,0 +1,39 @@
+.footer{
+    
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    /* width: 100%; */
+    background-color: rgb(1, 0, 58);
+    color: white; 
+    display: grid;
+    margin-top: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* text-align: left; */
+}
+.footerheading{
+    /* background-color: aquamarine; */
+    margin-left: 3px;
+    color: rgb(153, 153, 239);
+}
+.subheadingfooter{
+ padding: 10px;
+ font-size: 1.1em;
+ font-weight: 200;
+}
+
+.iconimage{
+    height: 1em;
+    width: 1em;
+    /* margin-left: 50px; */
+    padding: 2px;
+}
+
+@media screen and (max-width: 500px)  {
+    .footerheading{
+        font-size: 1.1rem;
+    }
+    .subheadingfooter{
+        font-size: .8rem;
+    }
+}

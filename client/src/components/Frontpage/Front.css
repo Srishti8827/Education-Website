@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Playfair:wght@700&family=Poppins:wght@300;400&family=Tiro+Devanagari+Hindi&display=swap');
+
+
+.frontbody{
+    margin-top: 0%;
+    padding: 0%;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #000; */
+    background: url("./collage3.jpg") center center/cover ;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+.frontheading{
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: 'Tiro Devanagari Hindi', serif;
+	/* font-size: 40px; */
+    font-size: 3rem;
+	text-shadow: -1px 1px 0 #fffcfc,
+				  1px 1px 0 #ffffff,
+				 1px -1px 0 #ffffff;
+				;
+}
+.subhead{
+    /* font-weight: 900; */
+    color: rgb(10, 10, 10);
+    
+    font-size:2rem;
+	text-shadow: -1px 1px 0 #ffffff,
+				  1px 1px 0 #ffffff,
+				 1px -1px 0 #ffffff;
+				;
+}

@@ -1,0 +1,63 @@
+/* .landingheading{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    color:rgb(62, 66, 128) ;
+} */
+.landcardcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    align-items: center;
+    justify-content: center;
+    grid-auto-flow: row;
+    /* float: ; */
+    /* flex-direction: row; */
+    
+    }
+    .landcard{
+        text-align: center;
+        width: 22rem;
+        place-self: center;
+        transition: transform .2s;
+        margin: 2rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .landcardimgs{
+        margin: 0;
+        padding: 0;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+    }
+    .landcardimgs img{
+        /* height: 17rem;
+        width:17rem; */
+        max-width: 100%;
+        transform-origin: center;
+        transform: scale(var(--img-scale));
+        transition: transform 0.4s ease-in-out;
+       
+    }
+    .landcardtitle{
+        /* display: block; */
+        /* margin: auto; */
+        text-align: center;
+        font-size: 20px;
+    }
+    .landcarddetail{
+        text-align:left;
+        padding: 1rem;
+        padding: 24px;
+    }
+    .landcard a{
+        text-decoration: none;
+    
+    }
+    .landcard:hover{
+        transform: scale(1.1);
+    }
+    
+    @media screen and  (max-width: 1070px) {
+        .landcardcontainer{
+    
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        }
+    }
