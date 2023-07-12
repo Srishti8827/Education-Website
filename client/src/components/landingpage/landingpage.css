@@ -24,7 +24,7 @@
     .landcardimgs{
         margin: 0;
         padding: 0;
-        aspect-ratio: 16 / 9;
+        aspect-ratio:16 / 9;
         overflow: hidden;
     }
     .landcardimgs img{
@@ -33,7 +33,7 @@
         max-width: 100%;
         transform-origin: center;
         transform: scale(var(--img-scale));
-        transition: transform 0.4s ease-in-out;
+        transition:transform 0.4s ease-in-out;
        
     }
     .landcardtitle{
@@ -52,7 +52,7 @@
     
     }
     .landcard:hover{
-        transform: scale(1.1);
+        transform:scale(1.05);
     }
     
     @media screen and  (max-width: 1070px) {

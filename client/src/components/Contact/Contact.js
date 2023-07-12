@@ -40,7 +40,7 @@ function Contact() {
     <>
     <div className="container-contact">
       <div className="imagecontainer" data-aos='flip-left' data-aos-delay="300">
-        <img className='img' src={require('./StudioAnimwood.png')} alt="" />
+        <img className='imgcontact' src={require('./StudioAnimwood.png')} alt="" />
       </div>
       <div data-aos='zoom-in' data-aos-delay="300"className="content">
           <h1>CONTACT US</h1>

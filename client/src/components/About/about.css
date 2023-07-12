@@ -16,8 +16,7 @@
     padding: 1.8em;
  
 }
-.about:hover{
-}
+
 #image1{
     /* border-radius: 1000rem;*/
     height: 25em; 
@@ -32,13 +31,7 @@
         100%  {bottom: 60px; top:0px;}
     
 }
-#image2{
-    height: 25em; 
-    width: 20em;
-    padding-top: 100px;
-    animation: second 1s;
-    position: relative;
-}
+
 @keyframes second{
   
     0%  {bottom: 40px; top:0px;}
@@ -50,11 +43,7 @@
     border-radius: 100px;
     /* height: 9px; */
 }
-#image2:hover{
-    transition-duration:1s ;
-    border-radius: 100px;
-    /* height: 9px; */
-}
+
 @media screen and (max-width: 623px) {
     .containerabout{
         display: flex;

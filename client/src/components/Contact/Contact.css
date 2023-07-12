@@ -8,7 +8,7 @@
     /* background: #000; */
     text-align: center;
 }
-.img{
+.imgcontact{
     height:40em; 
     width: 35eem;
 
@@ -69,7 +69,7 @@ textarea{
         background-size: cover;
        
     }
-    img{
+    .imgcontact{
         opacity: .5;
         height: 0%;
         width:0%;

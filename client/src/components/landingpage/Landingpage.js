@@ -12,7 +12,7 @@ const Landingpage = () => {
       <h1 className='landingheading'>Cources -</h1>
       </div>
       <div className="landcardcontainer">
-        <div className="landcard" data-aos="zoom-in">
+        <div className="landcard" >
             <div className="landcardimgs">
                 <img src={require("./his.jpg")} alt="" />
             </div>
@@ -26,7 +26,7 @@ const Landingpage = () => {
         </div>
 
 
-        <div className="landcard"data-aos="zoom-in">
+        <div className="landcard">
             <div className="landcardimgs">
                 <img src={require("./cp.jpg")} alt="" />
             </div>
@@ -41,7 +41,7 @@ const Landingpage = () => {
         </div>
 
 
-        <div className="landcard"data-aos="zoom-in">
+        <div className="landcard">
             <div className="landcardimgs">
                 <img src={require("./upsc.jpg")} alt="" />
             </div>
@@ -55,7 +55,7 @@ const Landingpage = () => {
         </div>
 
 
-        <div className="landcard"data-aos="zoom-in">
+        <div className="landcard">
             <div className="landcardimgs">
                 <img src={require("./dr.jpg")} alt="" />
             </div>
@@ -69,7 +69,7 @@ const Landingpage = () => {
         </div>
 
 
-        <div className="landcard"data-aos="zoom-in">
+        <div className="landcard" >
             <div className="landcardimgs">
                 <img src={require("./maths.jpg")} alt="" />
             </div>
