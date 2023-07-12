@@ -10,7 +10,7 @@ const Front = () => {
   return (
     <>
     <div className='frontbody'>
-      <h1 className='frontheading'data-aos="zoom-in" > WHAT U WANT IS HERE</h1>
+      <h1 className='frontheading'data-aos="zoom-in" >SHINE WITH<p> UP2MARK...</p></h1>
       <h2 className="subhead" data-aos="zoom-in" data-aos-delay="300">Course</h2>
       <h2 className="subhead"data-aos="zoom-in" data-aos-delay="400">Knowledge</h2>
       <h2 className="subhead"data-aos="zoom-in" data-aos-delay="500">Leaders</h2>

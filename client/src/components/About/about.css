@@ -32,12 +32,6 @@
     
 }
 
-@keyframes second{
-  
-    0%  {bottom: 40px; top:0px;}
-    100%   {bottom: 0px; top: 60px;}
-
-}
 #image1:hover{
     transition-duration:1s ;
     border-radius: 100px;
@@ -48,13 +42,13 @@
     .containerabout{
         display: flex;
         margin: 3%;
-        flex-direction: column;
+        flex-direction: column-reverse;
         /* grid-template-rows:repeat(2, 1fr); */
     }
     #image1{
         /* border-radius: 1000rem;*/
         height: 23em; 
-        width: 18em;
+        width: 16em;
         padding-bottom: 1%;
         animation: first 1s;
         position: relative;

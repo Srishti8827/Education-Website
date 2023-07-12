@@ -17,7 +17,7 @@ function Footer() {
             </h1>
             <p className="textfooter">
                 <div className='subheadingfooter'>Copyright <AiOutlineCopyrightCircle/> Up2Mark</div>
-                <div  className='subheadingfooter'>All rights are reserved</div>
+                <div  className='subheadingfooter'>All rights are reserved<p> Lorem ipsum,  </p><p>adipisicing elit. In blanditiis error, </p></div>
             </p>
         </div>
         <div className="part2footer"data-aos="fade-in">

@@ -3,15 +3,17 @@
 
 .frontbody{
     margin-top: 0%;
-    padding: 0%;
-    height: 500px;
-    text-align: center;
+    padding-top:7%;
+    padding-bottom:10%;
+    /* height: 600px; */
+    /* text-align: center; */
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     /* background: #000; */
-    background: url("./collage3.jpg") center center/cover ;
-    background-attachment: fixed;
+    background: url("./collage5.png") center center/cover ;
+    
+    /* background-attachment: fixed; */
     flex-direction: column;
 }
 .frontheading{
@@ -20,6 +22,7 @@
     font-family: 'Tiro Devanagari Hindi', serif;
 	/* font-size: 40px; */
     font-size: 3rem;
+    
 	text-shadow: -1px 1px 0 #fffcfc,
 				  1px 1px 0 #ffffff,
 				 1px -1px 0 #ffffff;
@@ -27,11 +30,32 @@
 }
 .subhead{
     /* font-weight: 900; */
+    font-family: 'Catamaran', sans-serif;
+
     color: rgb(10, 10, 10);
-    
+    padding-left:5% ;
     font-size:2rem;
 	text-shadow: -1px 1px 0 #ffffff,
 				  1px 1px 0 #ffffff,
 				 1px -1px 0 #ffffff;
 				;
+}
+@media screen and (max-width: 695px){
+    .subhead{
+        font-size: 1rem;
+
+    }
+    .frontheading{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 385px){
+    .subhead{
+        font-size: 1rem;
+
+    }
+    .frontheading{
+        font-size: 1.5rem;
+    }
 }

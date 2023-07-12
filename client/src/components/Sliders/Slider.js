@@ -32,7 +32,7 @@ function Slider() {
     <>
           
             <div className='sliderarea' >
-                <h1 className='facutlyheading'>OUR FACULTY STAFF-</h1>
+                <h1 className='facutlyheading'data-aos="fade-in">OUR FACULTY STAFF-</h1>
                 <Carousel responsive={responsive}
                pauseOnHover={false}
                 autoPlay={true}
