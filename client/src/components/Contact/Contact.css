@@ -49,15 +49,17 @@ textarea{
     padding: .5em;
     border-radius: 5em;
     border: none;
-    color: rgb(5, 10, 69);
-    background: #7ba5ff;
+    color: white;
+    background: #1EB2A6ff;
     /* margin: auto; */
     /* text-align: center; */
     margin-left: 40%;
 }
 .btn:hover{
-    background: #dee6f4;
-    border-color:rgb(5, 10, 69) ;
+    background: white;
+  
+    color: #1EB2A6ff;
+    border-color:#1EB2A6ff ;
 }
 
 @media  screen and (max-width: 695px) {

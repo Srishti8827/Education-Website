@@ -8,8 +8,12 @@ const Landingpage = () => {
 });
   return (
     <>
+    <div className="headline">
+
+    <p className='landingp' id="courses">OUR COURCES</p>
+      <h1  className='landingheading'>Explore Our Popular Online Courses</h1>
+    </div>
       <div className="landingcontainer"  data-aos="zoom-in">
-      <h1 className='landingheading'>Cources -</h1>
       </div>
       <div className="landcardcontainer">
         <div className="landcard" >

@@ -8,9 +8,11 @@ const Student = () => {
 });
   return (
     <>
-      <h1 className="studentheading" data-aos="zoom-in">
-        OUR SHINNING STARS
-      </h1>
+      <div className="headline">
+
+<p className='landingp' >HEART'S</p>
+  <h1 className='landingheading'>Our Successful Students</h1>
+</div>
 
       <div className='student-container'>
             <div className="card-student">

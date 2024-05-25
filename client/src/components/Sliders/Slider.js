@@ -30,9 +30,13 @@ function Slider() {
     };
     return (
     <>
-          
+            <div className="headline">
+
+<p className='landingp' >OUR FACULTY STAFF</p>
+  <h1 className='landingfacultyheading'>Best teaching staff</h1>
+</div>
             <div className='sliderarea' >
-                <h1 className='facutlyheading'data-aos="fade-in">OUR FACULTY STAFF-</h1>
+                
                 <Carousel responsive={responsive}
                pauseOnHover={false}
                 autoPlay={true}
@@ -41,31 +45,31 @@ function Slider() {
                 infinite={true}>
                     <div>
                         <div className="card"  data-aos="zoom-in">
-                            <h2 className='heading'>Sanjeev Jain</h2>
+                            <h2 className='facultyheading'>Sanjeev Jain</h2>
                             <p className='content'>Head of Maths, physics. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem sed necessitatibus, repudiandae dolorem enim a laborum, optio ducimus, unde delectus assumenda.</p>
                         </div>
                     </div>
                     <div>
                         <div className="card"  data-aos="zoom-in">
-                            <h2 className='heading'>Riya Rai</h2>
+                            <h2 className='facultyheading'>Riya Rai</h2>
                             <p className='content'>Head of Maths, physics. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem sed necessitatibus, repudiandae dolorem enim a laborum, optio ducimus, unde delectus assumenda.</p>
                         </div>
                     </div>
                     <div>
                         <div className="card" data-aos="zoom-in" >
-                            <h2 className='heading'>Veenita Mehta</h2>
+                            <h2 className='facultyheading'>Veenita Mehta</h2>
                             <p className='content'>Head of Maths, physics. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem sed necessitatibus, repudiandae dolorem enim a laborum, optio ducimus, unde delectus assumenda.</p>
                         </div>
                     </div>
                     <div>
                         <div className="card"  data-aos="zoom-in">
-                            <h2 className='heading'>Jiya Jay</h2>
+                            <h2 className='facultyheading'>Jiya Jay</h2>
                             <p className='content'>Head of Maths, physics. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem sed necessitatibus, repudiandae dolorem enim a laborum, optio ducimus, unde delectus assumenda.</p>
                         </div>
                     </div>
                     <div>
                         <div className="card"  data-aos="zoom-in">
-                            <h2 className='heading'>Harry Loie</h2>
+                            <h2 className='facultyheading'>Harry Loie</h2>
                             <p className='content'>Head of Maths, physics. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem sed necessitatibus, repudiandae dolorem enim a laborum, optio ducimus, unde delectus assumenda.</p>
                         </div>
                     </div>

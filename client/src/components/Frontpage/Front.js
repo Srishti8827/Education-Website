@@ -9,12 +9,13 @@ const Front = () => {
 });
   return (
     <>
+    <div className='mainfront'>
+      
     <div className='frontbody'>
-      <h1 className='frontheading'data-aos="zoom-in" >SHINE WITH<p> UP2MARK...</p></h1>
-      <h2 className="subhead" data-aos="zoom-in" data-aos-delay="300">Course</h2>
-      <h2 className="subhead"data-aos="zoom-in" data-aos-delay="400">Knowledge</h2>
-      <h2 className="subhead"data-aos="zoom-in" data-aos-delay="500">Leaders</h2>
-      <h2 className="subhead"data-aos="zoom-in" data-aos-delay="600">And Many more...</h2>
+      <h1 className='frontheading'data-aos="slide-right" >Best Online Education <p>Expertise </p></h1>
+      <p className="subhead" data-aos="slide-right" data-aos-delay="300">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+    <button className='front_button' ><a href="#courses" >VIEW COURCES</a></button>
+    </div>
     </div>
     
     </>

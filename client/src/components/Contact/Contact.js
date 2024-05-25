@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import './Contact.css'
 import AOS from 'aos'
-// import Footer from '../Footer/Footer'
 import axios from 'axios'
-import {useNavigate,useLocation} from 'react-router-dom'
+// import {useNavigate,useLocation} from 'react-router-dom'
 import toast from 'react-hot-toast'
 
 function Contact() {

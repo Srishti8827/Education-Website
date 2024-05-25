@@ -17,7 +17,7 @@ function Footer() {
             </h1>
             <p className="textfooter">
                 <div className='subheadingfooter'>Copyright <AiOutlineCopyrightCircle/> Up2Mark</div>
-                <div  className='subheadingfooter'>All rights are reserved<p> Lorem ipsum,  </p><p>adipisicing elit. In blanditiis error, </p></div>
+                <div  className='subheadingfooter'>All rights are reserved</div>
             </p>
         </div>
         <div className="part2footer"data-aos="fade-in">
@@ -35,7 +35,7 @@ function Footer() {
             <div  className='subheadingfooter'><img src={require('./instagram.png')} className="iconimage" alt=""/>Instagram</div>
             <div  className='subheadingfooter'><img src={require('./linkedin.png')} className="iconimage" alt=""/>Linkdin</div>
             <div  className='subheadingfooter'><img src={require('./facebook.png')} className="iconimage" alt=""/>FaceBook</div>
-            <div  className='subheadingfooter'><img src={require('./twitter.png')} className="iconimage" alt=""/>Twitter</div>
+            {/* <div  className='subheadingfooter'><img src={require('./twitter.png')} className="iconimage" alt=""/>Twitter</div> */}
         </div>
     </div> 
     </>

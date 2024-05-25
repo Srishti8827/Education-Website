@@ -2,31 +2,37 @@
 *{
     margin: 0px;
     padding: 0px;
+  
 }
 .navbar{
     display: flex;
     /* background: linear-gradient(90deg, rgba(100,90,244,1) 0%, rgba(47,68,183,1) 35%, rgba(36,63,170,1) 73%, rgba(69,149,252,1) 100%); */
-   
+    
     padding: .2rem;
-
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(234, 234, 255);
+    background-color: #1EB2A6ff;
     /* background-color: rgb(0, 0, 126); */
     padding: 0px 30px;
-    box-shadow: 0 5px 15px rgb(2, 1, 32);
+    /* box-shadow: 0 5px 15px rgb(242, 242, 244); */
     font-size: 1.4em;
     height: 6rem;
+    position: static;
+    overflow: hidden;
 }
 .navbarlogo{
-    color: black;
+    color: white;
     padding: 1.1em;
     /* margin-left: 33px; */
     text-align: center;
     font-family: 'Catamaran',sans-serif;
     text-decoration: none;
 }
+/* .navbarlogo:hover{
+    color: white;
+} */
 .leftnavbar{
     /* background-color: aqua; */
     display: flex;
@@ -41,10 +47,12 @@
 .navlink{
     text-decoration: none;
     font-weight: 400;
-    color: black;
+    color: white;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 500;
 }
 .navlink:hover{
-    color: rgb(172, 172, 245);
+    color: black;
 }
 .navbaritem{
     /* margin-right: 10px; */

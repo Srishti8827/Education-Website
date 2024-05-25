@@ -10,7 +10,7 @@
   position: relative;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 14px;
- padding: 10%;
+ padding: 2%;
  }
  .regbody::before {
   content: "";

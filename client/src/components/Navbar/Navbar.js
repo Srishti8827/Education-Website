@@ -6,10 +6,10 @@ import { useAuth } from '../context/auth'
 import toast from 'react-hot-toast'
 import AOS from 'aos'
 function Navbar() {
-    AOS.init({
-        duration: 800,
-        offset:150,
-    });
+    // AOS.init({
+    //     duration: 800,
+    //     offset:150,
+    // });
     const [auth, setAuth] = useAuth();
     const handleLogout = () => {
         setAuth({
@@ -22,7 +22,7 @@ function Navbar() {
       }
     return (
         <>
-            <nav className="navbar" data-aos="zoom-in">
+            <nav className="navbar" >
                 <Link to='/' className='navbarlogo'><h3><FaBookReader/>Up2Mark</h3></Link>
                 <ul className="leftnavbar">
                     <li className="navbaritem">
@@ -31,6 +31,9 @@ function Navbar() {
                     <li className="navbaritem">
                         <NavLink to="/about" className="navlink" aria-current="page" >About</NavLink>
                     </li>
+                    {/* <li className="navbaritem">
+                        <NavLink to="#" className="navlink" aria-current="page" >All Courses</NavLink>
+                    </li> */}
                     <li className="navbaritem">
                         <NavLink to="/contact" className="navlink" aria-current="page" >Contact</NavLink>
                     </li>
