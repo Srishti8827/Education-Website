@@ -25,7 +25,7 @@ const Landingpage = () => {
             </div>
             <div className="landcarddetail">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati, praesentium debitis impedit adipisci totam harum magni .</p>
-                <a href="#">Apply here</a>
+                // <a href="#">Apply here</a>
             </div>
         </div>
 
@@ -39,7 +39,8 @@ const Landingpage = () => {
             </div>
             <div className="landcarddetail">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati, praesentium debitis impedit adipisci totam harum magni .
-                </p> <a href="#">Apply here</a>
+                </p> 
+    // <a href="#">Apply here</a>
               
             </div>
         </div>
@@ -54,7 +55,7 @@ const Landingpage = () => {
             </div>
             <div className="landcarddetail">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati, praesentium debitis impedit adipisci totam harum magni </p>
-                <a href="#">Apply here</a>
+                // <a href="#">Apply here</a>
             </div>
         </div>
 
@@ -68,7 +69,7 @@ const Landingpage = () => {
             </div>
             <div className="landcarddetail">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati, praesentium debitis </p>
-                <a href="#">Apply here</a>
+                // <a href="#">Apply here</a>
             </div>
         </div>
 
@@ -82,7 +83,8 @@ const Landingpage = () => {
             </div>
             <div className="landcarddetail">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati, praesentium debitis impedit adipisci totam harum magni </
-                p>  <a href="#">Apply here</a>
+                p> 
+    // <a href="#">Apply here</a>
             </div>
         </div>
       </div>
